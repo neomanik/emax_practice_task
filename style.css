@@ -1,0 +1,105 @@
+   /*фон*/
+   body{
+    background-color: green;
+ }
+ h3{
+/*сглаживание углов*/
+    border-radius:10px;
+    /*граница*/
+    border:1px solid black;
+    /*фон*/
+    background-color:red;
+ /*ширина*/
+    width:60%;
+    /*отступ слева*/
+    margin-left:30px;
+
+ }
+ #content{
+          /*отступ слева*/
+    margin-left:30px;
+        /*ширина*/
+    width:60%;
+    /* высота блока*/
+    height:60%;
+        /*   фон*/
+    background-color:darkgreen;
+      /* внутернний отступ слева*/
+    padding-left:10px;
+  /* сглаживание углов*/
+    border-radius:10px;
+  /* граница блока*/
+    border:15px solid brown;
+ /*отступ снизу*/
+    margin-bottom:50px;
+
+ }
+    /*селектор класс редспан-добавляем для тега спан-чтобы можно было обрабатывать отдельные строчные элементы*/
+.redspan{
+/*сглаживание углов*/
+    border-radius:3px;
+/*размер шрифта*/
+    font-size:200%;
+    /*фон*/
+    background-color:grey;
+    /*цвет текст*/
+    color:red;
+    /*внутренний отступ слева*/
+    padding-left:5px;
+    /*внутренний отступ справа*/
+    padding-right:5px;
+    /*поялвение руки при наведении*/
+    cursor:pointer;
+    /*элемент будет работать как блок-можно будет элементу задать ширину и высоту*/
+    display:inline-block;
+    /*ширина*/
+    width:50px;
+    /*высота*/
+    height:90px;
+
+}
+    /*  подсвечивает при наведении на элемент*/
+.redspan:hover{
+    /*подсветка*/
+    filter:brightness(150%);
+}
+
+ /*селектор класс блэкспан-добавляем для тега спан-чтобы можно было обрабатывать отдельные строчные элементы*/
+.blackspan{
+/*сглаживание углов*/
+    border-radius:3px;
+/*размер шрифта*/
+    font-size:200%;
+    /*фон*/
+    background-color:grey;
+    /*цвет текст*/
+    color:black;
+    /*внутренний отступ слева*/
+    padding-left:5px;
+    /*внутренний отступ справа*/
+    padding-right:5px;
+    /*поялвение руки при наведении*/
+    cursor:pointer;
+    /*элемент будет работать как блок-можно будет элементу задать ширину и высоту*/
+    display:inline-block;
+    /*ширина*/
+    width:50px;
+    /*высота*/
+    height:90px;
+
+}
+
+/*  подсвечивает при наведении на элемент, можно так же изменить цвет */
+.blackspan:hover{
+/*фон*/
+    background-color:blue;
+    /*цвет текста*/
+    color:green;
+}
+#footer{
+    /*граница сверху*/
+    border-top:2px solid black;
+    margin-bottom:0px;
+    /*выравнивание текста по правому краю*/
+    text-align: right;
+}
